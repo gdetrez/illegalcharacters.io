@@ -1,1 +1,5 @@
-<p>This is the partial for view 1.</p>
+<textarea ng-model="backend.data" class="col-md-12" rows="10"></textarea>
+<div class="col-md-12 text-right" style="margin-top:1em">
+  <a ng-click="backend.data = ''" class="btn btn-warning" ng-disabled="backend.data == ''">Reset</a>
+  <a href="#/a" class="btn btn-primary" ng-disabled="backend.data == ''">Analyse</a>
+</div>
