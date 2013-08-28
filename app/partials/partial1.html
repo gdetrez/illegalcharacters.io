@@ -1,5 +1,5 @@
-<textarea ng-model="backend.data" class="col-md-12" rows="10"></textarea>
-<div class="col-md-12 text-right" style="margin-top:1em">
+<div class="col-md-12 text-right">
   <a ng-click="backend.data = ''" class="btn btn-warning" ng-disabled="backend.data == ''">Reset</a>
-  <a href="#/a" class="btn btn-primary" ng-disabled="backend.data == ''">Analyse</a>
+  <a href="#/a" class="btn btn-primary" ng-disabled="backend.data == ''">Analyse <i class="glyphicon glyphicon-cog"></i> </a>
 </div>
+<textarea ng-model="backend.data" class="col-md-12" rows="10" style="margin-top:1em"></textarea>
